@@ -67,7 +67,7 @@ order by booking_percentage desc;
 
 We can see that Summer months are more popular for these hotels compared to Winter.
 
-[![](screenshots/q1.png "Q1")](https://public.tableau.com/views/Hotel_16780075595590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+[![](screenshots/q1.png "Q1")](https://public.tableau.com/views/Hotel2_16791180480140/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ### Q2. What is demography of the customers? Citizens of which countries are visiting these hotels most?
 ```sql
@@ -94,7 +94,7 @@ order by total_count desc;
 
 We see that these hotels are most popular with customers from Portugal followed by Great Britain.
 
-[![](screenshots/q2.png "Q2")](https://public.tableau.com/views/Hotel_16780075595590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+[![](screenshots/q2.png "Q2")](https://public.tableau.com/views/Hotel2_16791180480140/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ### Q3. What is the most popular meal type ordered by customers?
 ```sql
@@ -139,7 +139,7 @@ order by channel_percentage desc;
 
 We see that close to 80% of the customers are booking through travel agents and about 15% are directly booking through the hotels.
 
-[![](screenshots/q4.png "Q4")](https://public.tableau.com/views/Hotel_16780075595590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+[![](screenshots/q4.png "Q4")](https://public.tableau.com/views/Hotel2_16791180480140/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 We can also look at the output segemented by hotel type to see if we can get any different insight.
 ```sql
@@ -281,7 +281,7 @@ order by cancel_percentage desc;
 
 It seems cancellations for Summer months are much higher than Winter ones. This trend is similar to the reservations by month.
 
-[![](screenshots/q5-2.png "Q5")](https://public.tableau.com/views/Hotel_16780075595590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+[![](screenshots/q5-2.png "Q5")](https://public.tableau.com/views/Hotel2_16791180480140/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ### Q6. What is the revenue for these hotels? Segment by year and type of hotel
 From the data, we can infer that revenue for each reservation can be calculated as number of nights x discounted rate if the reservation is not canceled.
@@ -311,4 +311,4 @@ order by arrival_date_year, hotel_type
 | 2020              | Resort Hotel | 2979002.88 |
 
 NOTE: Numbers in this visualization are slightly higher since Tableau's Union apparently works different from SQL server's union.
-[![](screenshots/q6.png "Q6")](https://public.tableau.com/views/Hotel_16780075595590/Dashboard1?:language=en-US&:display_count=n&:origin=viz_share_link)
+[![](screenshots/q6.png "Q6")](https://public.tableau.com/views/Hotel2_16791180480140/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link)
